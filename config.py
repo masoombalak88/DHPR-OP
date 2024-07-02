@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/LOCO-PILOT/Music",
+    "https://github.com/masoombalak88/DHPR-OP",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/roy_editx")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_friendz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FONT_CHANNEL_01")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Exampurrs")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -92,7 +92,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/9e2e83ad4bcd814a538c5.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/dec61e858d57c14343455.jpg"
